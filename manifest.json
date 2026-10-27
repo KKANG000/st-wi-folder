@@ -1,0 +1,12 @@
+{
+    "display_name": "ST WI Folder",
+    "loading_order": 100,
+    "dependencies": [],
+    "js": "index.js",
+    "css": "style.css",
+    "author": "",
+    "version": "0.1.0",
+    "homePage": "",
+    "auto_update": false,
+    "minimum_client_version": "1.13.0"
+}

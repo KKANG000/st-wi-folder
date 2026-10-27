@@ -1,0 +1,10 @@
+#stlf { margin: 0 0 8px; }
+#stlf_list { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 4px; }
+.stlf_folder { display: inline-flex; align-items: center; gap: 4px; padding: 2px 6px; border: 1px solid var(--SmartThemeBorderColor); border-radius: 6px; }
+.stlf_folder.stlf_collapsed { opacity: 0.6; }
+.stlf_folder .fa-solid { cursor: pointer; }
+.stlf_folder small { opacity: 0.7; }
+#stlf_assign { max-width: 10em; }
+/* collapsed books are disabled options; hide them in the select2 dropdowns */
+#select2-world_info-results .select2-results__option--disabled,
+#select2-world_editor_select-results .select2-results__option--disabled { display: none; }
